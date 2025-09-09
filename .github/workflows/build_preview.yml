@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -60,8 +60,9 @@ jobs:
         with:
           name: preview
           path: |
-            dist
             iD/dist
+            imagery.geojson
+            imagery.json
 
       - name: Store pull request number for later use
         run: |
