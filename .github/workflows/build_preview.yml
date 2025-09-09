@@ -62,7 +62,6 @@ jobs:
           path: |
             iD/dist
             imagery.geojson
-            imagery.json
 
       - name: Store pull request number for later use
         run: |
