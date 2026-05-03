@@ -1,0 +1,34 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "Zaragoza_2004",
+        "name": "Zaragoza City Archive Historical Map (2004)",
+        "type": "wms",
+        "category": "map",
+        "url": "https://idezar.zaragoza.es/geoserver/historicos/wms?LAYERS=AMZ_4-2_0926&STYLES=&CRS={proj}&BBOX={bbox}&FORMAT=image/png&WIDTH={width}&HEIGHT={height}&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap",
+        "available_projections": [
+            "EPSG:4326",
+            "EPSG:3857",
+            "EPSG:25830"
+        ],
+        "country_code": "ES",
+        "license_url": "https://www.zaragoza.es/sede/portal/datos-abiertos/terminos-uso",
+        "attribution": {
+            "url": "https://www.zaragoza.es/",
+            "text": "Archivo Municipal del Ayuntamiento de Zaragoza",
+            "required": true
+        },
+        "start_date": "2004",
+        "end_date": "2004"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-1.05, 41.58],
+            [-0.77, 41.58],
+            [-0.77, 41.73],
+            [-1.05, 41.73],
+            [-1.05, 41.58]
+        ]]
+    }
+}
