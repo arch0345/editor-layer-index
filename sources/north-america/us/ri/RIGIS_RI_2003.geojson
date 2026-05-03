@@ -1,0 +1,29 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "RIGIS_RI_2003",
+        "name": "RIGIS Rhode Island Aerial Imagery (2003-2004)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://maps.edc.uri.edu/arcgis/rest/services/Atlas_imageryBaseMapsEarthCover/2003_04_RIDOT/MapServer/tile/{zoom}/{y}/{x}",
+        "max_zoom": 21,
+        "country_code": "US",
+        "attribution": {
+            "url": "https://www.rigis.org/",
+            "text": "Rhode Island Department of Transportation, RIGIS",
+            "required": false
+        },
+        "start_date": "2003",
+        "end_date": "2004"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-71.9, 41.1],
+            [-71.1, 41.1],
+            [-71.1, 42.05],
+            [-71.9, 42.05],
+            [-71.9, 41.1]
+        ]]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "RIGIS_RI_BlockIsland_1992",
+        "name": "RIGIS Block Island Aerial Imagery (1992)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://tiles.arcgis.com/tiles/S8zZg9pg23JUEexQ/arcgis/rest/services/BI_Ortho/MapServer/tile/{zoom}/{y}/{x}",
+        "max_zoom": 21,
+        "country_code": "US",
+        "attribution": {
+            "url": "https://www.rigis.org/",
+            "text": "URI Environmental Data Center, RIGIS",
+            "required": false
+        },
+        "start_date": "1992",
+        "end_date": "1992"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-71.65, 41.14],
+            [-71.53, 41.14],
+            [-71.53, 41.22],
+            [-71.65, 41.22],
+            [-71.65, 41.14]
+        ]]
+    }
+}

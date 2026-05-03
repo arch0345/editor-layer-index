@@ -1,0 +1,29 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "RIGIS_RI_1981",
+        "name": "RIGIS Rhode Island Aerial Imagery (April 1981)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://tiles.arcgis.com/tiles/S8zZg9pg23JUEexQ/arcgis/rest/services/atlas_img_1981/MapServer/tile/{zoom}/{y}/{x}",
+        "max_zoom": 21,
+        "country_code": "US",
+        "attribution": {
+            "url": "https://www.rigis.org/",
+            "text": "URI Environmental Data Center, RIGIS",
+            "required": false
+        },
+        "start_date": "1981-04",
+        "end_date": "1981-04"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-71.9, 41.1],
+            [-71.1, 41.1],
+            [-71.1, 42.05],
+            [-71.9, 42.05],
+            [-71.9, 41.1]
+        ]]
+    }
+}

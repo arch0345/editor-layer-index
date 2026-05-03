@@ -1,0 +1,29 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "RIGIS_RI_2024_Winter",
+        "name": "RIGIS Rhode Island Aerial Imagery (Dec 2024-Mar 2025)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://maps.edc.uri.edu/rigis/rest/services/IMG/RI_202412_RGB_3in_web/ImageServer/tile/{zoom}/{y}/{x}",
+        "max_zoom": 21,
+        "country_code": "US",
+        "attribution": {
+            "url": "https://www.rigis.org/",
+            "text": "URI Environmental Data Center, RIGIS",
+            "required": false
+        },
+        "start_date": "2024-12-18",
+        "end_date": "2025-03-27"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-71.9, 41.1],
+            [-71.1, 41.1],
+            [-71.1, 42.05],
+            [-71.9, 42.05],
+            [-71.9, 41.1]
+        ]]
+    }
+}

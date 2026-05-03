@@ -1,0 +1,29 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "RIGIS_RI_2020_Spring_3in",
+        "name": "RIGIS Rhode Island Aerial Imagery (Apr 12-25, 2020, 3-inch)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://maps.edc.uri.edu/rigis/rest/services/IMG/RI_202004_RGB_3in_web/ImageServer/tile/{zoom}/{y}/{x}",
+        "max_zoom": 21,
+        "country_code": "US",
+        "attribution": {
+            "url": "https://www.rigis.org/",
+            "text": "URI Environmental Data Center, RIGIS",
+            "required": false
+        },
+        "start_date": "2020-04-12",
+        "end_date": "2020-04-25"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [-71.9, 41.1],
+            [-71.1, 41.1],
+            [-71.1, 42.05],
+            [-71.9, 42.05],
+            [-71.9, 41.1]
+        ]]
+    }
+}
