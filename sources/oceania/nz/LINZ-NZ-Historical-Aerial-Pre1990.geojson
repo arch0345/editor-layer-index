@@ -1,0 +1,30 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "LINZ-NZ-Historical-Aerial-Pre1990",
+        "name": "LINZ NZ Scanned Aerial Imagery (pre-1990)",
+        "type": "tms",
+        "category": "photo",
+        "url": "https://basemaps.linz.govt.nz/v1/tiles/scanned-aerial-imagery-pre-1990-01-01/WebMercatorQuad/{zoom}/{x}/{y}.webp?api=d01egend5f8dv4zcbfj6z2t7rs3",
+        "max_zoom": 21,
+        "country_code": "NZ",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "attribution": {
+            "url": "https://www.linz.govt.nz/data/licensing-and-using-data/attributing-elevation-or-aerial-imagery-data",
+            "text": "Sourced from LINZ CC-BY 4.0",
+            "required": true
+        },
+        "start_date": "1939",
+        "end_date": "1989"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+            [166.5, -47.5],
+            [178.6, -47.5],
+            [178.6, -34.1],
+            [166.5, -34.1],
+            [166.5, -47.5]
+        ]]
+    }
+}
