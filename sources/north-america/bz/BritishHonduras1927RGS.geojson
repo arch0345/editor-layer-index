@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "1927_British_Honduras_RGS",
+    "name": "British Honduras 1927 by RGS",
+    "type": "tms",
+    "category": "map",
+    "url": "https://mapwarper.net/maps/tile/101285/{z}/{x}/{y}.png",
+    "country_code": "BZ",	      
+    "attribution": {
+        "text": "Royal Geographical Society",
+        "required": false
+    },
+    "valid-georeference": true,
+    "start_date": "1927",
+    "end_date": "1927"
+  },
+  "geometry": {
+        "coordinates": [
+          [
+            [
+              -89.62861143885898,
+              18.589107417172812
+            ],
+            [
+              -89.62861143885898,
+              15.688492595016669
+            ],
+            [
+              -87.73462871828981,
+              15.688492595016669
+            ],
+            [
+              -87.73462871828981,
+              18.589107417172812
+            ],
+            [
+              -89.62861143885898,
+              18.589107417172812
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+}
